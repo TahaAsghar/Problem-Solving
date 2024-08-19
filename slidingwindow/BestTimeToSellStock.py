@@ -16,7 +16,7 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 from typing import List
 
 
-def maxProfit(prices):
+def maxProfit(prices: List[int]):
     left_pointer = 0  # buy stock
     right_pointer = 1  # sell stock
     max_profit = 0
